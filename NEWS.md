@@ -8,10 +8,14 @@ complete changelog, see the git history for each version via the version links.
 ### Fixed
 - Added missing translation keys
 
-### changed
+### Changed
 - Remove Rails as a dependency so that clearance does not trigger a cascade of
   requirements as rails pulls in every framework. Instead, depend on just the
   frameworks relevant to Clearance.
+
+### Removed
+- Removed support for Ruby versions older than 2.2
+- Removed support for Rails versions older than 4.2
 
 [Unreleased]: https://github.com/thoughtbot/clearance/compare/v1.16.1...HEAD
 
